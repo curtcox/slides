@@ -1,0 +1,56 @@
+digraph G {
+    
+rankdir=TB
+nodesep=0.0
+
+node [shape=box]
+edge [dir=none]
+style=invis
+
+
+subgraph cluster_0 {
+ OS [label="Operating System"]
+ Net [label="Network"]
+}
+
+subgraph cluster_1 {
+ Auth
+ DB [label="Database"]
+ FS [label="File System"]
+ Cache [label="Caching"]
+ Msg [label="Messaging"]
+}
+
+subgraph cluster_2 {
+ AI [color=green style=filled fontolor=white]
+}
+
+subgraph cluster_3 {
+ UM [label="User Management"]
+ BL [label="Business Logic"]
+ WF [label="Workflow"]
+}
+
+subgraph cluster_4 {
+ Web
+ Mobile
+}
+
+Web -> UM
+Web -> BL
+Mobile -> BL
+Mobile -> WF
+
+UM -> Auth
+BL -> {DB FS}
+BL -> Cache
+WF -> DB
+WF -> Msg -> Net
+Auth -> Net
+{Cache DB FS} -> OS
+
+edge [color=red]
+edge [style=invis]
+{Auth DB Net BL Cache WF Msg FS UM} -> AI
+
+}
