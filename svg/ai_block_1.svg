@@ -42,7 +42,7 @@
 <!-- Auth&#45;&gt;Net -->
 <g id="edge12" class="edge">
 <title>Auth&#45;&gt;Net</title>
-<path fill="none" stroke="black" d="M313.69,-87.7C303.46,-76.85 290.32,-62.92 280.13,-52.1"/>
+<path fill="none" stroke="blue" d="M313.69,-87.7C303.46,-76.85 290.32,-62.92 280.13,-52.1"/>
 </g>
 <!-- DB -->
 <g id="node4" class="node">
@@ -53,7 +53,7 @@
 <!-- DB&#45;&gt;OS -->
 <g id="edge13" class="edge">
 <title>DB&#45;&gt;OS</title>
-<path fill="none" stroke="black" d="M188.3,-87.7C185.36,-76.85 181.58,-62.92 178.64,-52.1"/>
+<path fill="none" stroke="blue" d="M188.3,-87.7C185.36,-76.85 181.58,-62.92 178.64,-52.1"/>
 </g>
 <!-- FS -->
 <g id="node5" class="node">
@@ -64,7 +64,7 @@
 <!-- FS&#45;&gt;OS -->
 <g id="edge14" class="edge">
 <title>FS&#45;&gt;OS</title>
-<path fill="none" stroke="black" d="M132.6,-87.7C141.12,-76.85 152.07,-62.92 160.56,-52.1"/>
+<path fill="none" stroke="blue" d="M132.6,-87.7C141.12,-76.85 152.07,-62.92 160.56,-52.1"/>
 </g>
 <!-- Cache -->
 <g id="node6" class="node">
@@ -75,7 +75,7 @@
 <!-- Cache&#45;&gt;OS -->
 <g id="edge15" class="edge">
 <title>Cache&#45;&gt;OS</title>
-<path fill="none" stroke="black" d="M70.37,-87.51C74.18,-84.89 78.15,-82.29 82,-80 98.8,-69.98 118.15,-60.27 134.75,-52.44"/>
+<path fill="none" stroke="blue" d="M70.37,-87.51C74.18,-84.89 78.15,-82.29 82,-80 98.8,-69.98 118.15,-60.27 134.75,-52.44"/>
 </g>
 <!-- Msg -->
 <g id="node7" class="node">
@@ -86,7 +86,7 @@
 <!-- Msg&#45;&gt;Net -->
 <g id="edge11" class="edge">
 <title>Msg&#45;&gt;Net</title>
-<path fill="none" stroke="black" d="M264,-87.7C264,-76.85 264,-62.92 264,-52.1"/>
+<path fill="none" stroke="blue" d="M264,-87.7C264,-76.85 264,-62.92 264,-52.1"/>
 </g>
 <!-- UM -->
 <g id="node8" class="node">
@@ -97,7 +97,7 @@
 <!-- UM&#45;&gt;Auth -->
 <g id="edge5" class="edge">
 <title>UM&#45;&gt;Auth</title>
-<path fill="none" stroke="black" d="M318.71,-159.7C321.03,-148.85 324.02,-134.92 326.33,-124.1"/>
+<path fill="none" stroke="blue" d="M318.71,-159.7C321.03,-148.85 324.02,-134.92 326.33,-124.1"/>
 </g>
 <!-- BL -->
 <g id="node9" class="node">
@@ -108,17 +108,17 @@
 <!-- BL&#45;&gt;DB -->
 <g id="edge6" class="edge">
 <title>BL&#45;&gt;DB</title>
-<path fill="none" stroke="black" d="M148.58,-159.7C157.73,-148.85 169.47,-134.92 178.58,-124.1"/>
+<path fill="none" stroke="blue" d="M148.58,-159.7C157.73,-148.85 169.47,-134.92 178.58,-124.1"/>
 </g>
 <!-- BL&#45;&gt;FS -->
 <g id="edge7" class="edge">
 <title>BL&#45;&gt;FS</title>
-<path fill="none" stroke="black" d="M130.29,-159.7C127.97,-148.85 124.98,-134.92 122.67,-124.1"/>
+<path fill="none" stroke="blue" d="M130.29,-159.7C127.97,-148.85 124.98,-134.92 122.67,-124.1"/>
 </g>
 <!-- BL&#45;&gt;Cache -->
 <g id="edge8" class="edge">
 <title>BL&#45;&gt;Cache</title>
-<path fill="none" stroke="black" d="M112.49,-159.7C99.11,-148.93 81.95,-135.12 68.56,-124.35"/>
+<path fill="none" stroke="blue" d="M112.49,-159.7C99.11,-148.93 81.95,-135.12 68.56,-124.35"/>
 </g>
 <!-- WF -->
 <g id="node10" class="node">
@@ -129,12 +129,12 @@
 <!-- WF&#45;&gt;DB -->
 <g id="edge9" class="edge">
 <title>WF&#45;&gt;DB</title>
-<path fill="none" stroke="black" d="M213.33,-159.7C209.14,-148.85 203.77,-134.92 199.6,-124.1"/>
+<path fill="none" stroke="blue" d="M213.33,-159.7C209.14,-148.85 203.77,-134.92 199.6,-124.1"/>
 </g>
 <!-- WF&#45;&gt;Msg -->
 <g id="edge10" class="edge">
 <title>WF&#45;&gt;Msg</title>
-<path fill="none" stroke="black" d="M230.88,-159.7C237.7,-148.85 246.45,-134.92 253.25,-124.1"/>
+<path fill="none" stroke="blue" d="M230.88,-159.7C237.7,-148.85 246.45,-134.92 253.25,-124.1"/>
 </g>
 <!-- Web -->
 <g id="node11" class="node">
@@ -145,12 +145,12 @@
 <!-- Web&#45;&gt;UM -->
 <g id="edge1" class="edge">
 <title>Web&#45;&gt;UM</title>
-<path fill="none" stroke="black" d="M253.27,-231.7C265.89,-220.93 282.05,-207.12 294.68,-196.35"/>
+<path fill="none" stroke="blue" d="M253.27,-231.7C265.89,-220.93 282.05,-207.12 294.68,-196.35"/>
 </g>
 <!-- Web&#45;&gt;BL -->
 <g id="edge2" class="edge">
 <title>Web&#45;&gt;BL</title>
-<path fill="none" stroke="black" d="M211.86,-231.52C208.6,-228.95 205.24,-226.37 202,-224 188.98,-214.47 174.07,-204.5 161.53,-196.38"/>
+<path fill="none" stroke="blue" d="M211.86,-231.52C208.6,-228.95 205.24,-226.37 202,-224 188.98,-214.47 174.07,-204.5 161.53,-196.38"/>
 </g>
 <!-- Mobile -->
 <g id="node12" class="node">
@@ -161,12 +161,12 @@
 <!-- Mobile&#45;&gt;BL -->
 <g id="edge3" class="edge">
 <title>Mobile&#45;&gt;BL</title>
-<path fill="none" stroke="black" d="M166.37,-231.7C159.71,-220.85 151.15,-206.92 144.51,-196.1"/>
+<path fill="none" stroke="blue" d="M166.37,-231.7C159.71,-220.85 151.15,-206.92 144.51,-196.1"/>
 </g>
 <!-- Mobile&#45;&gt;WF -->
 <g id="edge4" class="edge">
 <title>Mobile&#45;&gt;WF</title>
-<path fill="none" stroke="black" d="M187.63,-231.7C194.29,-220.85 202.85,-206.92 209.49,-196.1"/>
+<path fill="none" stroke="blue" d="M187.63,-231.7C194.29,-220.85 202.85,-206.92 209.49,-196.1"/>
 </g>
 </g>
 </svg>
