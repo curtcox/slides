@@ -4,7 +4,7 @@ rankdir=TB
 nodesep=0.0
 
 node [shape=box]
-edge [dir=none color=blue]
+edge [dir=none color=blue penwidth=3]
 style=invis
 
 
